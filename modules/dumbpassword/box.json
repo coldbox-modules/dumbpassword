@@ -2,15 +2,15 @@
     "name":"ForgeBox SDK",
     "version"   : "@build.version@+@build.number@",
     "author":"Ortus Solutions <info@ortussolutions.com>",
-    "slug":"forgeboxsdk",
+    "slug":"dumbpassword",
     "type":"modules",
-    "homepage"  : "https://github.com/coldbox-modules/cbox-forgeboxsdk",
-    "location"          : "http://downloads.ortussolutions.com/ortussolutions/coldbox-modules/forgeboxsdk/@build.version@/forgeboxsdk-@build.version@.zip",
-    "documentation"     : "https://github.com/coldbox-modules/cbox-forgeboxsdk",
-    "bugs"      : "https://github.com/coldbox-modules/cbox-forgeboxsdk/issues",
+    "homepage"  : "https://github.com/coldbox-modules/cbox-dumbpassword",
+    "location"          : "http://downloads.ortussolutions.com/ortussolutions/coldbox-modules/dumbpassword/@build.version@/dumbpassword-@build.version@.zip",
+    "documentation"     : "https://github.com/coldbox-modules/cbox-dumbpassword",
+    "bugs"      : "https://github.com/coldbox-modules/cbox-dumbpassword/issues",
     "repository":{
         "type":"git",
-        "url":"https://github.com/ColdBox/cbox-forgeboxsdk"
+        "url":"https://github.com/ColdBox/cbox-dumbpassword"
     },
     "shortDescription":"A module that connects any application to the ForgeBox.io API",
     "contributors"      : [
