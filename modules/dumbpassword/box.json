@@ -1,5 +1,5 @@
 {
-    "name":"ForgeBox SDK",
+    "name":"DumbPassword",
     "version"   : "@build.version@+@build.number@",
     "author":"Ortus Solutions <info@ortussolutions.com>",
     "slug":"dumbpassword",
@@ -12,7 +12,7 @@
         "type":"git",
         "url":"https://github.com/ColdBox/cbox-dumbpassword"
     },
-    "shortDescription":"A module that connects any application to the ForgeBox.io API",
+    "shortDescription":"This package can be used to verify the user provided password is not one of the top 10,000 worst passwords",
     "contributors"      : [
         "Brad Wood <bdw429s@gmail.com>"
     ],
