@@ -1,0 +1,27 @@
+{
+    "name":"dumbpassword Builder",
+    "version":"1.0.0",
+    "slug":"dumbpassword-shell",
+    "private":false,
+    "defaultPort":0,
+    "dependencies":{
+        "coldbox":"^4.3.0",
+        "workbench":"git+https://github.com/Ortus-Solutions/unified-workbench.git",
+        "cbvalidation":"^1.2.1+29"
+    },
+    "devDependencies":{
+        "testbox":"^2.4.0"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"coldbox",
+        "workbench":"workbench",
+        "cbvalidation":"modules/cbvalidation"
+    },
+    "testbox":{
+        "runner":"http://localhost:49616"
+    },
+    "scripts":{
+        "postVersion":"recipe workbench/bump.boxr"
+    }
+}
