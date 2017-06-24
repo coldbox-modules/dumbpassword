@@ -30,7 +30,8 @@ component extends="coldbox.system.testing.BaseTestCase"{
 					result, 
 					this, 
 					'password', 
-					javacast( "null", "" )
+					javacast( "null", "" ),
+					{}
 				);
 				expect(	r ).toBeFalse();
 				expect(	result.hasErrors() ).toBeTrue();
@@ -44,7 +45,8 @@ component extends="coldbox.system.testing.BaseTestCase"{
 					result, 
 					this, 
 					'password', 
-					""
+					"",
+					{}
 				);
 				expect(	r ).toBeTrue();
 				expect(	result.hasErrors() ).toBeFalse();
@@ -58,7 +60,8 @@ component extends="coldbox.system.testing.BaseTestCase"{
 					result, 
 					this, 
 					'password', 
-					"shadow"
+					"shadow",
+					{}
 				);
 				expect(	r ).toBeFalse();
 				expect(	result.hasErrors() ).toBeTrue();
