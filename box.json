@@ -1,22 +1,22 @@
 {
     "name":"DumbPassword",
-    "version"   : "1.1.0",
+    "version":"1.2.0",
     "author":"Ortus Solutions <info@ortussolutions.com>",
     "slug":"dumbpassword",
     "type":"modules",
-    "homepage"  : "https://github.com/coldbox-modules/dumbpassword",
-    "location"          : "https://downloads.ortussolutions.com/ortussolutions/coldbox-modules/dumbpassword/@build.version@/dumbpassword-@build.version@.zip",
-    "documentation"     : "https://github.com/coldbox-modules/dumbpassword",
-    "bugs"      : "https://github.com/coldbox-modules/dumbpassword/issues",
+    "homepage":"https://github.com/coldbox-modules/dumbpassword",
+    "location":"https://downloads.ortussolutions.com/ortussolutions/coldbox-modules/dumbpassword/@build.version@/dumbpassword-@build.version@.zip",
+    "documentation":"https://github.com/coldbox-modules/dumbpassword",
+    "bugs":"https://github.com/coldbox-modules/dumbpassword/issues",
     "repository":{
         "type":"git",
         "url":"https://github.com/ColdBox/dumbpassword"
     },
     "shortDescription":"This package can be used to verify the user provided password is not one of the top 10,000 worst passwords",
-    "contributors"      : [
+    "contributors":[
         "Brad Wood <bdw429s@gmail.com>"
     ],
-    "dependencies"  :{
+    "dependencies":{
         "cbvalidation":"^1.2.1"
     },
     "license":[
