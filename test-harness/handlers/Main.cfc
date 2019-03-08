@@ -1,4 +1,4 @@
-/**
+﻿/**
 * My Event Handler Hint
 */
 component{
@@ -6,6 +6,7 @@ component{
 
 	// Index
 	any function index( event,rc, prc ){
+		return "Is Dumb: #getInstance( "PasswordService@dumbpassword" ).isDumb( "qwerty" )#";
 	}
 
 	// Run on first init

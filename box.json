@@ -1,27 +1,36 @@
 {
-    "name":"dumbpassword Builder",
-    "version":"1.0.0",
-    "slug":"dumbpassword-shell",
-    "private":false,
-    "defaultPort":0,
-    "dependencies":{
-        "coldbox":"^4.3.0",
-        "workbench":"git+https://github.com/Ortus-Solutions/unified-workbench.git",
-        "cbvalidation":"^1.2.1+29"
+    "name":"DumbPassword",
+    "version"   : "1.1.0",
+    "author":"Ortus Solutions <info@ortussolutions.com>",
+    "slug":"dumbpassword",
+    "type":"modules",
+    "homepage"  : "https://github.com/coldbox-modules/dumbpassword",
+    "location"          : "https://downloads.ortussolutions.com/ortussolutions/coldbox-modules/dumbpassword/@build.version@/dumbpassword-@build.version@.zip",
+    "documentation"     : "https://github.com/coldbox-modules/dumbpassword",
+    "bugs"      : "https://github.com/coldbox-modules/dumbpassword/issues",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/ColdBox/dumbpassword"
     },
-    "devDependencies":{
-        "testbox":"^2.4.0"
+    "shortDescription":"This package can be used to verify the user provided password is not one of the top 10,000 worst passwords",
+    "contributors"      : [
+        "Brad Wood <bdw429s@gmail.com>"
+    ],
+    "dependencies"  :{
+        "cbvalidation":"^1.2.1"
     },
-    "installPaths":{
-        "testbox":"testbox",
-        "coldbox":"coldbox",
-        "workbench":"workbench",
-        "cbvalidation":"modules/cbvalidation"
-    },
-    "testbox":{
-        "runner":"http://localhost:49616"
-    },
+    "license":[
+        {
+            "type":"Apache2",
+            "url":"http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    ],
+    "ignore":[
+        "**/.*",
+        "tests/*",
+        ".git*"
+    ],
     "scripts":{
-        "postVersion":"recipe workbench/bump.boxr"
+        "toMaster":"recipe build/toMaster.boxr"
     }
 }
